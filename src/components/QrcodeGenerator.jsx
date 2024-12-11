@@ -26,7 +26,8 @@ function QrcodeGenerator() {
         <h1>Qr Generator</h1>
         <input type="text" className='border border-black' onChange={changeValue}/>
         <button className='border' onClick={generateQR}>Generate</button>
-        <img src={url} alt="No image" className='   ' />
+        <h1>Welcome to all</h1>
+        <img src={url} alt="No image" className='' />
         <button className='border' onClick={downloadQRCode}>Download</button>
     </div>
   )
